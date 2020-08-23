@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-slideshow-app/static/css/main.372c6bbc.chunk.css",
+    "main.js": "/react-slideshow-app/static/js/main.ff262baf.chunk.js",
+    "main.js.map": "/react-slideshow-app/static/js/main.ff262baf.chunk.js.map",
+    "runtime-main.js": "/react-slideshow-app/static/js/runtime-main.e0fd80a1.js",
+    "runtime-main.js.map": "/react-slideshow-app/static/js/runtime-main.e0fd80a1.js.map",
+    "static/js/2.07a9a178.chunk.js": "/react-slideshow-app/static/js/2.07a9a178.chunk.js",
+    "static/js/2.07a9a178.chunk.js.map": "/react-slideshow-app/static/js/2.07a9a178.chunk.js.map",
+    "index.html": "/react-slideshow-app/index.html",
+    "precache-manifest.3e2ff299a9e16227eb2775a8c2abe0e7.js": "/react-slideshow-app/precache-manifest.3e2ff299a9e16227eb2775a8c2abe0e7.js",
+    "service-worker.js": "/react-slideshow-app/service-worker.js",
+    "static/css/main.372c6bbc.chunk.css.map": "/react-slideshow-app/static/css/main.372c6bbc.chunk.css.map",
+    "static/js/2.07a9a178.chunk.js.LICENSE.txt": "/react-slideshow-app/static/js/2.07a9a178.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0fd80a1.js",
+    "static/js/2.07a9a178.chunk.js",
+    "static/css/main.372c6bbc.chunk.css",
+    "static/js/main.ff262baf.chunk.js"
+  ]
+}
