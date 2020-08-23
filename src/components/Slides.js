@@ -61,11 +61,11 @@ class Slides extends React.Component {
     render() {
         return (
             <div>
-                <div id="navigation" className="text-center">
+                <div id="navigation">
                     <button
                         data-testid="button-restart"
                         disabled={this.state.restartButtonState}
-                        className="small outlined"
+                        className="myButton"
                         onClick={this.restartButton}
                     >
                         Restart
@@ -73,7 +73,7 @@ class Slides extends React.Component {
                     <button
                         data-testid="button-prev"
                         disabled={this.state.prevButtonState}
-                        className="small"
+                        className="myButton"
                         onClick={this.prevButton}
                     >
                         Prev
@@ -85,14 +85,14 @@ class Slides extends React.Component {
                             this.props.slides.length + 1 >
                             this.state.currentSlideIndex
                         }
-                        className="small"
+                        className="myButton"
                         onClick={this.nextButton}
                     >
                         Next
                     </button>
                 </div>
-                <div id="slide" className="card text-center">
-                    <h1 data-testid="title">
+                <div id="slide" className="mySlide">
+                    <h1 data-testid="title" style={{margin:50}}>
                         {this.props.slides[this.state.currentSlideIndex].title}
                     </h1>
                     <p data-testid="text">

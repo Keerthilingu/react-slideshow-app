@@ -1,17 +1,20 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import Slides from './components/Slides';
+import Slides from "./components/Slides";
 const title = "Slideshow App";
 
 function App({ slides }) {
-  return (
-    <div className="App">
-      <h1>{title}</h1>
-      <div className="App">
-        <Slides slides={slides} />
-      </div>
-    </div>
-  );
+    return (
+        <div className="App">
+        <div className="App-header">
+                <h3>{title}</h3>
+            </div>
+
+            <div>
+                <Slides slides={slides} />
+            </div>
+        </div>
+    );
 }
 export default App;
